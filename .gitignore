@@ -1,0 +1,9 @@
+*.keystore
+*.rpyc
+/*.txt
+/*.json
+.vscode/
+game/cache/
+game/saves/
+game/tl/
+game/audio/*.flac
