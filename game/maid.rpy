@@ -12,11 +12,14 @@ label maid:
     "噔噔噔。"
     m "请进。"
     show lillian
+    with moveinright
     lillian "林先生，您该出发了。"
     m "走吧。"
     scene bg town
     with wiperight
     "我们赶着马车从庄园来到了小镇。"
+    show lillian at left
+    with move
     m "原来还有一段距离啊。"
     lillian "当然，伯爵一般拥有自己的庄园，也在小镇上又有住宅，但主人显然更喜欢庄园。"
     lillian "停车。"
@@ -26,67 +29,88 @@ label maid:
     lillian "下车吧，林先生，我们到达第一个目的地了。"
     m "所以说，这里是？"
     lillian "百货铺，哈尔西恩小镇自然也无法自给自足，而那些从外面来的商人，如果想定向合作，就会把货物运送到这里。"
+    show lillian annoyed
     lillian "查账总会吧，你看上去衣冠楚楚的，总不至于连这个都不会。"
     m "交给我就好。"
     lillian "虽然说是看看你要干什么，但总归是要把日常生活需要的那些告诉你的。"
+    show lillian nervous
     lillian "别看我！走，进去打个招呼。"
     m "？？？"
     "我跟着莉莉安，径直走进了百货铺"
-    
+    scene bg instore
     show lillian at left
     with move
-    show alice at right
+    show alice closedeyes at right
     with moveinright
     "和蔼的老奶奶" "哟，是莉莉啊，好久没见到了。"
     "和蔼的老奶奶" "哦哟，这边这个，是你的朋友吧，好好好，来坐坐。"
     lillian "不了，爱丽丝奶奶，给您介绍一下。"
     lillian "这位是林乐胥，是最近要暂住在我们这里的客人。"
+    show alice openeyes
     alice "哦，你好，小伙子，我平常啊，就在这里守着，有什么要的日用品，尽管跟我说。"
     m "好的，爱丽丝奶奶。"
     lillian "奶奶，林先生以后要替代奥利尔先生过来查账。"
     alice "哦哦，我知道了，那就不打扰你们了，你赶快把他带到老爷剩下的几个店里去吧。"
+    show alice closedeyes
     lillian "那我们走了，拜拜～"
     m "再见。"
     alice "再见，年轻人。"
     scene bg street
+    with wiperight
     "我跟着莉莉安回到了大街，一路上她一直皱着眉头，我听到了她小声的嘀咕"
-    show lillian
+    show lillian annoyed
     lillian "呃啊，到底还剩个什么啊！"
     m "莉莉安？怎么了？"
+    show lillian nervous
     lillian "唔，嗯？咳咳，无事，我们走，去下一个店。"
     m "所以，我们还剩下几个店铺？"
     lillian "一个半。"
     m "一个半？"
+    show lillian
     lillian "对，就是一个半，林先生。"
     lillian "走吧，那个烘焙坊也是我们的。"
     m "那好。"
+    scene bg street
+    with fade
+    show lillian happy
     "出烘焙坊后，莉莉安似乎突然兴奋了起来。"
     "不知道为什么，刚见面是莉莉安的冷漠似乎在此时消失地一干二净，我盯着她翘起嘴角"
     "（突然感觉她充满了动力）"
+    show lillian confused
     lillian "嗯？请不要盯着我。"
     m "那半个是什么？"
+    show lillian
     lillian "是一家酒馆，那家酒馆是主人和爱莲娜小姐合作经营的。"
     lillian "那里的酒相当甘醇。林先生如果有空也可以尝试一下。"
     m "哦？想不到莉莉安小姐还对酒很有研究。"
+    show lillian confident
     lillian "当然，酒可是哈尔西恩的支柱产业之一，对酒略有研究也是女仆的工作。"
     m "那我倒是迫不及待地想要品尝一下了。不过，你可以喝酒？ "
     show lillian angry
     "（似乎恶狠狠地看了我一眼）"
     lillian "我已经十七岁了，法律意义上已经成年。"
     m "十七岁成年么，可你看上去..."
+    show bg street
+    with flashred
     "（被狠狠地踩了一脚）"
     m "（！）"
     m "好疼！"
     lillian "请不要讨论女孩子的年龄。"
     m "好的，下次一定，下次一定。"
     "（明明我还是客人来着啊，这个女仆难道这么暴力的吗？）"
+    show lillian
     lillian "已经到了，走吧，这就是今天的最后一站了。"
     lillian "温德拉什，全镇唯一一家酒馆，最初是主人的个人产业。但在种种原因下，爱莲娜成为了这家店的老板，不过据说她到来之后酒更加好喝了。"
     m "（似乎知道她这么磨磨蹭蹭的原因了...）"
     lillian "那么，进来吧林先生。"
     m "好，不过，我们可以品尝完这里的美酒再回去吗？"
     lillian "当然可以。"
+    show lillian happy
     lillian "爱莲娜——有客人来啦——"
+    scene bg bar
+    show lillian at left
+    with moveinright
+    play sound opendoor
     "伴随着咯吱声，酒馆的木门被推开，莉莉安便拉着我闯了进去。不过这丝毫没有影响酒馆里热闹的氛围，酒杯的碰撞夹杂着酒客们的话语，把整间酒馆塞得满满当当。"
     elena "哦？呀！是莉莉啊，今天也要喝点什么？"
     lillian "不了，爱莲娜，今年有一位客人来，主人让他代替奥列尔管家收账。"

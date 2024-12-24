@@ -1,0 +1,24 @@
+{
+    "expansion": false,
+    "google_play_key": null,
+    "google_play_salt": null,
+    "heap_size": "3",
+    "icon_name": "\u5e7b\u60f3\u96c6\u4e8b\u5f55",
+    "include_pil": false,
+    "include_sqlite": false,
+    "layout": null,
+    "name": "\u5e7b\u60f3\u96c6\u4e8b\u5f55",
+    "numeric_version": 1,
+    "orientation": "sensorLandscape",
+    "package": "com.zeroth.fantasyanthology",
+    "permissions": [
+        "VIBRATE",
+        "INTERNET"
+    ],
+    "source": false,
+    "store": "none",
+    "update_always": true,
+    "update_icons": true,
+    "update_keystores": true,
+    "version": "1.0"
+}

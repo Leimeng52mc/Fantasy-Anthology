@@ -5,6 +5,13 @@ image book = "Enchanted_Book.gif"
 
 # 声音资源
 define audio.knockdoor = "敲门.ogg"
+define audio.opendoor = "开门.ogg"
+
+define audio.bgmmain = "main.ogg"
+define audio.bgmbar = "bar.ogg"
+define audio.grassland = "grassland.ogg"
+define audio.town = "town.ogg"
+define audio.mansion = "mansion.ogg"
 
 define audio.us = "01-Unwelcome School.flac"
 define audio.mc = "02. Midsummer cat.flac" # 清新活泼春天
@@ -32,3 +39,20 @@ transform left_to_right:
 transform ariana.left:
     xcenter .3
 
+transform ariana.right:
+    xcenter .7
+
+transform flashwhite:
+    "bg blk w"
+    alpha 1.0
+    linear 0.5 alpha 0.0
+
+transform flashblack:
+    "bg blk b"
+    alpha 1.0
+    linear 0.5 alpha 0.0
+
+transform flashred:
+    "bg blk r"
+    alpha 1.0
+    linear 0.5 alpha 0.0
