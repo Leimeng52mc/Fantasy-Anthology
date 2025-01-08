@@ -6,6 +6,7 @@ image book = "Enchanted_Book.gif"
 # 声音资源
 define audio.knockdoor = "敲门.ogg"
 define audio.opendoor = "开门.ogg"
+define audio.thunder = "Explosion4.ogg.mp3"
 
 define audio.bgmmain = "main.ogg"
 define audio.bgmbar = "bar.ogg"
