@@ -1,8 +1,9 @@
 *.keystore
 *.rpyc
+*.rpymc
 /traceback.txt
 /errors.txt
-log.txt
+/log.txt
 .vscode/
 game/cache/
 game/saves/

@@ -289,6 +289,8 @@ screen navigation():
         if main_menu:
 
             textbutton _("开始游戏") action Start()
+            if(flag_test):
+                textbutton _("测试") action Start("test")
 
         else:
 
@@ -315,7 +317,7 @@ screen navigation():
             ## “帮助”对移动设备来说并非必需或相关。
             textbutton _("帮助") action ShowMenu("help")
 
-        if renpy.variant("pc"):
+        if renpy.variant("pc") or renpy.variant("android"):
 
             ## 退出按钮在 iOS 上是被禁止使用的，在安卓和网页上也不是必要的。
             textbutton _("退出") action Quit(confirm=not main_menu)
