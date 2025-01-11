@@ -314,4 +314,4 @@ label maid:
     lillian "既然主人让我带你去，那么我们就争取玩得尽兴。"
     m "然后傍晚又去酒馆？"
     "（喝个烂醉还让我背回来。）"
-    jump exception
+    jump ge

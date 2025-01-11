@@ -158,6 +158,7 @@ label test:
     "测试2"
     scene red
     "测试3"
+    jump rainandfire
     return
 
 label ge:
