@@ -26,3 +26,17 @@ transform flashred:
     red
     alpha 1.0
     linear 0.5 alpha 0.0
+
+#样式
+style ruby_style is default:
+    size 15
+    yoffset -30
+    color None # 使用主文本相同的颜色。
+
+style say_dialogue:
+    ruby_line_leading 12
+    ruby_style style.ruby_style
+
+style history_text:
+    ruby_line_leading 12
+    ruby_style style.ruby_style
