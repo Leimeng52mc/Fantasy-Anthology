@@ -1,6 +1,7 @@
 label maid:
     m "我想，我就暂时借宿在庄园吧。"
     abel "那好，明天，我就让莉莉安带你去熟悉熟悉，顺便啊，看看你未来要做的事。"
+    stop music fadeout 1.0
     scene bg bedroom
     with wiperight
     "{b}来到卧室{/b}"
@@ -8,6 +9,7 @@ label maid:
     scene bg bedroom
     with fade
     "{b}第二天{/b}"
+    play music sg
     play sound knockdoor
     "噔噔噔。"
     m "请进。"

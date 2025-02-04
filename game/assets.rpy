@@ -4,6 +4,12 @@ image black="#000000"
 image white="#FFFFFF"
 image red = "#FF0000"
 
+image lillian:
+    "lillian.png"
+    zoom 0.2
+    xanchor 0.5
+    yanchor 0.5
+    
 # 声音资源
 # 音效
 define audio.knockdoor = "敲门.ogg"
