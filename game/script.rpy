@@ -156,16 +156,6 @@ menu:
     "酒馆":
         jump boss
 
-label test:
-    scene black
-    "测试1"
-    scene white
-    "测试2"
-    scene red
-    "测试3"
-    jump rainandfire
-    return
-
 label ge:
     # 此处为游戏结尾。
     "{b}Good 结局{/b}"

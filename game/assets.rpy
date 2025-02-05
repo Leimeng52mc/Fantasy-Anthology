@@ -9,7 +9,12 @@ image lillian:
     zoom 0.2
     xanchor 0.5
     yanchor 0.5
-    
+image abel:
+    "abel.png"
+    zoom 0.5
+    xanchor 0.5
+    yanchor 0.3
+
 # 声音资源
 # 音效
 define audio.knockdoor = "敲门.ogg"
